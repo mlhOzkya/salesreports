@@ -27,7 +27,7 @@ SET @date1 = '{date1}';
 SET @date2 = '{date2}';
 
 SELECT 
-	br.StoreName AS [Store],
+	b.StoreName AS [Store],
 	t.OrderDate AS [Date],
     DATEPART(HOUR, t.OrderDateTime) AS [Hour],
     t.Check AS [Check],
